@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Frame</title>
+    <style>
+        .frame {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .row {
+            flex: 1;
+            display: flex;
+        }
+        .half {
+            flex: 1;
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <H1>DIYA</H1>
+    <!-- <BR></BR> -->
+    <H1>2100290120076</H1>
+    <!-- <BR></BR> -->
+    <H1>CS6B</H1>
+    <div class="frame">
+        <div class="row">
+            <div class="half">
+                <iframe src="practicalnine.html"></iframe>
+            </div>
+            <div class="half">
+                <iframe src="practicalnine.html"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
